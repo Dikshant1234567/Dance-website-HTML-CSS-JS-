@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>About</title>
+</head>
+<body>
+          <!-- navbar -->
+          <div class="nav-container">
+            <i class="fa-sharp fa-solid fa-bars ham" ></i>
+            <div class="navbar">
+              <div class="brand-logo">
+                <img
+                  src="data:image/png;base64,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"
+                  alt=""
+                />
+              </div>
+              <div class="nav-item nav-itemGo">
+                <i class="fa-solid fa-xmark cross " ></i>
+                <ul>
+                  <li><a href="index.html" class="nav-links">Home</a></li>
+                  <li><a href="about.html" class="nav-links">About Us</a></li>
+                  <li><a href="family.html" class="nav-links">Family</a></li>
+                  <li><a href="contact.html" class="nav-links">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <!-- navbar end -->
+          <!-- about head START -->
+          <section class="about-head">
+           
+                <img src="https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-dancing-wallpaper-1920x1200.jpg" alt="">
+            
+          </section>
+           <!-- about head END -->
+
+<!-- about DANCE START -->
+           <section class="about-dance">
+            <div class="D_col-1">
+              <div class="D_row-1">
+                <h1>About justDance</h1>
+                <h4>--------Slave to the Rythm</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officiis repudiandae illum praesentium voluptates veritatis, obcaecati, eveniet nulla dignissimos mollitia ut corporis repellendus totam accusamus recusandae numquam molestiae culpa? Aliquam officia reiciendis omnis molestias quae dolore, quo sit libero assumenda suscipit repellendus saepe autem est delectus harum quam provident dolores.</p>
+              </div>
+              <div class="D_row-2">  
+                <div class="D_row-2Item-1">
+                  <h1>Dance Classes</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quia iure eligendi reprehenderit incidunt modi dolorum iste distinctio similique vero, beatae numquam ut molestias libero unde corrupti quis expedita? Nisi illo sequi unde, perspiciatis incidunt accusantium enim! Ab placeat saepe aliquid repellat et neque tempore possimus, maxime provident, non at.</p>
+                </div>
+                <div class="D_row-2Item-2">
+                  <h1>Master Classes</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam blanditiis provident sapiente. Quod ullam obcaecati possimus! Harum debitis aspernatur autem maxime iste quibusdam nesciunt porro maiores assumenda! Laboriosam, labore nihil? Ipsam consequatur, repellat vitae minima nisi nemo veritatis suscipit possimus odit sunt sapiente. Porro illum, repellat voluptate amet voluptatum ipsa.</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="D_col-2">
+              <img src="https://wallpaperaccess.com/full/89617.jpg" alt="">
+            </div> 
+           </section>
+
+           <!-- ABOUT DANCE END -->
+
+
+           <article class="classes">
+           <h1>Dance Classes</h1>
+           <h4>-----Slave to Rythm</h4>
+           <div class="classes-main">
+            <div class="classes-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1uO_nS-YzQSzlg_57EsV801ZFmRg2sDI8tQ&usqp=CAU" alt="">
+            </div>
+            <div class="classes-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0k5xvlG94AaBS0mS7uNDnPzJn5Wo-R7yhQ&usqp=CAU" alt="">
+            </div>
+            <div class="classes-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCr88LRaOSIMyZ9LuTzdPiMdSshtpmX3_Ldg&usqp=CAU" alt="">
+            </div>
+            <div class="classes-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxLh_luXyGkxxld98lVHd5OMml_Lkk99GVg&usqp=CAU" alt="">
+            </div>
+           </div>
+           </article>
+           <!-- CLASSES END -->
+           <footer >
+            <h1>DEV DIKSHANT</h1> 
+          </footer>
+
+           <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.ham {
+  color: white;
+  position: absolute;
+  right: 25px;
+  top: 1rem;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+.cross {
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  top: 3px;
+  cursor: pointer;
+  display: none;
+  color: white;
+}
+.brand-logo img {
+  height: 39px;
+  border-radius: 50%;
+  width: 50px;
+}
+.nav-container {
+  background-color: gray;
+  padding: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item ul {
+  display: flex;
+  list-style: none;
+}
+.nav-item ul li {
+  margin: 0 30px;
+  font-size: 20px;
+}
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
+.nav-links:hover {
+  color: pink;
+  transition: color 0.1s ease-in;
+}
+
+.background-img{
+  
+  background: url("https://media.istockphoto.com/id/1391722651/photo/asian-chinese-gay-couple-enjoying-weekend-leisure-time-with-friends-at-rice-paddy-field.jpg?b=1&s=612x612&w=0&k=20&c=6I8xwVs-tiEVxO0SpMRU7CGsEkDX8l74TiQ0QU8kzr4=") ;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+ 
+  width: 100vw;
+  height: 100vh;
+}
+.background-img{
+text-align: center;
+padding: 50px;
+}
+.background-img h1{
+  font-size: 35px;
+ margin-top: 12rem;
+ margin-bottom: 10px;
+ color: white;
+ font-family: cursive;
+ 
+}
+.background-img p{
+  margin: 0px 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.522);
+  padding: 20px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+/* *********** wHY DANCE START ******** */
+.why-dance{
+  text-align: center;
+  padding:  70px;
+}
+.why-dance h1{
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+.why-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.why-item{
+  background-color: beige;
+  margin: 25px;
+  padding: 5px;
+}
+.why-item img{
+  width: 250px;
+  height: 250px;
+  border-radius: 0%;
+/* border: 1px solid; */
+}
+.why-item h3{
+  font-size: 25px;
+  padding: 5px;
+  color: chocolate;
+}
+.why-item p{
+  font-size: 14px;
+  
+}
+
+/****************** WHY DANCE END ***************/
+
+/* ********** LESSON START ********* */
+.lesson-head{
+  padding: 10px;
+}
+.lesson-head h1{
+font-size:70px;
+margin-bottom: 20px;
+}
+.lesson-head p{
+font-size: 20px;
+word-spacing: 1px;
+}
+.lesson{
+  text-align: center;
+  padding:0px 70px;
+}
+.lesson-container{
+  display: flex;
+}
+.lesson-item{
+  padding: 50px;
+}
+
+.lesson-item h1{
+  font-size: 27px;
+margin-bottom: 10px;
+color: white;
+}
+.lesson-item img{
+height: 300px;
+width: 300px;
+margin: 20px 0;
+}
+.lesson-item p{
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 25px;
+}
+.lesson-item button{
+padding: 10px 26px;
+border-radius: 14px;
+border: 0;
+background-color: grey;
+cursor: pointer;
+color: white;
+}
+.lesson-item button:hover{
+  background-color: rgba(128, 128, 128, 0.599);
+}
+
+/**************** LESSON END****************** */
+
+/* *************** FOOTER  START************** */
+footer{
+  background-color: bisque;
+  text-align: center;
+  padding: 50px 5px;
+}
+
+/* ************** FOOTER END ****************** */
+
+/* ********ABOUT HEAD START ************* */
+
+.about-head img{
+width: 100vw;
+height: 100vh;
+}
+.about-dance{
+  display: flex;
+  margin-top: -4px;
+}
+.D_col-1{
+  width: 50%;
+background-color: seagreen;
+
+}
+.D_col-2{
+  width: 50%;
+  background-color: plum;
+
+}
+.D_col-2 img{
+  width: 100%;
+  height: 100%;
+}
+.D_row-1{
+  background-color: whitesmoke;
+  padding: 8px;
+}
+.D_row-1 h1{
+  color: pink;
+  margin: 0px 20px;
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 300;
+}
+.D_row-1 h4{
+ margin: 0 27px;
+ font-size: 14px;
+ font-weight: 300;
+
+}
+.D_row-1 p{
+margin: 20px 15px;
+font-size: 13px;
+}
+.D_row-2{
+  display: flex;
+}
+
+.D_row-2Item-1{
+  background-color: black;
+  padding: 8px;
+}
+.D_row-2Item-1 h1{
+  color: red;
+
+}
+.D_row-2Item-1 p{
+  color: white;
+  margin: 8px 12px;
+  font-size: 13px;
+  letter-spacing: .8px;
+}
+.D_row-2Item-2{
+  background-color: red;
+  padding: 8px;
+}
+.D_row-2Item-2 h1{
+  color: black;
+
+}
+.D_row-2Item-2 p{
+  color: white;
+margin: 8px 12px;
+letter-spacing: .8px;
+  font-size: 13px;
+}
+.classes{
+  text-align: center;
+  padding: 60px 35px;
+}
+.classes h1{
+  font-family: cursive;
+ color: palevioletred;
+ font-size: 35px;
+ font-weight: 300;
+
+}
+.classes h4{
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+}
+.classes-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.classes-item{
+  background-color: purple;
+  margin: 50px 10px;
+  height: 440px;
+  width: 260px;
+}
+.classes-item img{
+  height: 440px;
+  width: 100%;
+}
+
+
+/* ***************ABOUT HEAD END ************* */
+/* FAMILY CSS */
+.family-head{
+  padding: 20px;
+  border: .2px solid black;
+}
+.fam-item{
+  display: flex;
+  outline: ridge pink;
+}
+.fam-about{
+  width:75%;
+  padding: 20px;
+  background-color: beige;
+}
+.fam-about h1{
+  margin: 0 15px;
+font-size: 32px;
+font-weight: 300;
+color: orangered;
+font-family: cursive;
+}
+.fam-about p{
+ font-size: 14px;
+ word-spacing: .8px;
+ letter-spacing: .3px;
+ font-family: 'La Belle Aurore' ;
+ margin: 8px;
+}
+.fam-img{
+  width: 25%;
+}
+.fam-img img{
+  height:250px;
+  width: 100%;
+}
+.fam-head{
+  text-align: center;
+margin: 10px;
+font-size: 35px;
+color: darkred;
+font-style: italic;
+font-family: 'Rubik Vinyl', cursive;
+}
+.form_container{
+  margin:  auto;
+  width: 600px;
+  background-color: aquamarine;
+}
+.form-head{
+  background-color: cadetblue;
+  padding: 10px 30px;
+}
+.form-head h1{
+font-size: 36px;
+
+}
+.form-head p{
+font-size: 15px;
+
+}
+.form_container input{
+  width: 250px;
+  margin: 12px 10em;
+  padding: 10px 15px;
+  font-size: 14px;
+  outline: none;
+  font-family: sans-serif;
+  border: 0;
+}
+form a{
+  margin: 0 10rem; 
+}
+textarea{
+  margin: 10px 8.7rem;
+  padding: 10px;
+  outline: none;
+}
+.button{
+  text-align: center;
+}
+form button{
+  text-align: center;
+  padding: 5px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid brown;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+  margin: 30px;
+}
+form button:hover{
+  background-color: rgb(255, 47, 0);
+  border: 1px solid rgb(255, 47, 0);
+}
+
+/* ************* RESPONSIVE CSS************************ */
+@media (700px < width< 1200px) {
+ 
+  .classes-main{
+    grid-template-columns: 1fr 1fr ;
+  }
+  .about-dance{
+    flex-direction: column;
+  }
+  .D_col-1 ,.D_col-2{
+    width: 100%;
+  }
+  .lesson-container{
+    flex-direction: column;
+  }
+  .why-container{  
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+  }
+}
+
+
+@media (max-width: 700px) {
+  form a{
+    margin:0 30px ;
+  }
+  textarea{
+    margin: 10px 20px;
+    width: 220px;
+  }
+
+  .form_container{
+    width: 300px;
+  }
+  .form_container input{
+width: 220px;
+margin: 12px 20px;
+
+  }
+  .fam-head{
+    font-size: 25px;
+  }
+  .fam-about{
+    width: 100%;
+  }
+  .fam-img{
+    width: 100%;
+  }
+  .fam-img img{
+    height:100%;
+    width: 100%;
+  }
+  .fam-item{
+flex-direction: column;
+  }
+  .setoder{
+    order: 2;
+
+  }
+  .diks{
+    display: flex;
+    order: 0;
+  }
+  .classes-item{
+    width: 250px;
+  }
+  .classes-item{
+    margin: 25px;
+  }
+  .classes-main{
+    grid-template-columns: 1fr  ;
+  }
+  .about-dance{
+    flex-direction: column;
+  }
+  .D_row-2{
+    flex-direction: column;
+  }
+  .D_col-1 ,.D_col-2{
+    width: 100%;
+  }
+  .about-head img{
+height: 80vh;
+  }
+  .lesson-head p{
+    font-size: 17px;
+  }
+  .lesson-head h1{
+    font-size: 30px;
+  }
+  .lesson-item{
+    padding: 20px 50px;
+  }
+  .lesson-item img{
+    height: 250px;
+    width: 250px;
+  }
+  .lesson{
+    padding: 70px 10px;
+  }
+  .lesson-container{
+    flex-direction: column;
+  }
+  .why-dance h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .why-container{  
+    grid-template-columns: 1fr ;
+    justify-items: center;
+  }
+
+  .why-dance{
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 20px 30px;
+  }
+  .ham {
+    display: block;
+  }
+  .cross {
+    display: block;
+  }
+  .brand-logo img {
+    margin: 10px;
+  }
+  .nav-container {
+    padding: 0;
+
+    overflow-x: hidden;
+  }
+  .navbar {
+    width: 100%;
+    padding: 0px;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+ 
+  .nav-item {
+    background-color: darkkhaki;
+    width: 100vw;
+    text-align: center;
+    height: 90vh;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+  }
+  .nav-itemGo {
+
+    transform: translateX(100%);
+    transition: transform ease-in-out 0.3s;
+  }
+
+  .nav-item ul {
+    flex-direction: column;
+  }
+  .nav-item ul li {
+    margin: 30px;
+  }
+}
